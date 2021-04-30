@@ -89,9 +89,7 @@ class SearchViewController: UIViewController, UITextFieldDelegate, UITableViewDe
         return cell
     }
     
-    
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        print("check if any in tableview")
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
         // Notify Map controller to show pin at selected place
@@ -99,5 +97,4 @@ class SearchViewController: UIViewController, UITextFieldDelegate, UITableViewDe
         
         delegate?.searchViewController(self, didSelectLocationWith: coordinate)
     }
- 
 }
