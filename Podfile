@@ -6,5 +6,6 @@ target 'MapTest' do
   use_frameworks!
 
 pod 'FloatingPanel'
+pod 'IQKeyboardManagerSwift'
 
 end
