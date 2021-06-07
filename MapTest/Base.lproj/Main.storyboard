@@ -35,7 +35,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="road2" translatesAutoresizingMaskIntoConstraints="NO" id="N3F-ce-eps">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alternatebg" translatesAutoresizingMaskIntoConstraints="NO" id="N3F-ce-eps">
                                 <rect key="frame" x="0.0" y="55" width="390" height="735"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -277,7 +277,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="road2" width="4000" height="5000"/>
+        <image name="alternatebg" width="7801" height="4001"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
